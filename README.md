@@ -2,7 +2,7 @@
 
 ## Overview
 
-"Personal Bookshelf" is a React application that allows users to search for books using the Open Library API and maintain a personal bookshelf in the browser using localStorage. Users can search for books, view the search results in real-time, and add their favorite books to a personal bookshelf that persists across browser sessions.
+"Epic reads" is a React application that allows users to search for books using the Open Library API and maintain a personal bookshelf in the browser using localStorage. Users can search for books, view the search results in real-time, and add their favorite books to a personal bookshelf that persists across browser sessions.
 
 ## Features
 
@@ -25,7 +25,13 @@
 
 ## Screenshots
 
-(Include screenshots of your application if available)
+### Book Search Page
+
+![Book Search Page](screenshots/search.png)
+
+### Personal Bookshelf Page
+
+![Personal Bookshelf Page](screenshots/shelf.png)
 
 ## Setup Instructions
 
@@ -41,8 +47,10 @@
    git clone [https://github.com/yourusername/personal-bookshelf.git](https://github.com/Prathamesh942/personal-bookshelf/edit/master/README.md)
    cd personal-bookshelf
 2. Install dependencies:
+   ```bash
    npm install or yarn install
-3. Start the development server:
+4. Start the development server:
+   ```bash
    npm start or yarn start
 
 
